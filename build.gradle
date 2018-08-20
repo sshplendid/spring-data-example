@@ -65,6 +65,6 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile("org.springframework.restdocs:spring-restdocs-mockmvc")
 
-    testCompile("javax.xml.bind:jaxb-api")
+    compile("javax.xml.bind:jaxb-api")
 }
 
