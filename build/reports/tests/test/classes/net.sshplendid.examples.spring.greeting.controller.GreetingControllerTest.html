@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class net.sshplendid.examples.spring.greeting.controller.GreetingControllerTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class net.sshplendid.examples.spring.greeting.controller.GreetingControllerTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/net.sshplendid.examples.spring.greeting.controller.html">net.sshplendid.examples.spring.greeting.controller</a> &gt; GreetingControllerTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.315s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">shouldReturnDefaultMessage</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReturnJustHello</td>
+<td class="success">0.114s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldReturnMessageWithName</td>
+<td class="success">0.180s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2018-08-20 22:42:51.870  INFO 35405 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [net.sshplendid.examples.spring.greeting.controller.GreetingControllerTest], using SpringBootContextLoader
+2018-08-20 22:42:51.872  INFO 35405 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [net.sshplendid.examples.spring.greeting.controller.GreetingControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-08-20 22:42:51.872  INFO 35405 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [net.sshplendid.examples.spring.greeting.controller.GreetingControllerTest]: GreetingControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-08-20 22:42:51.927  INFO 35405 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration net.sshplendid.examples.spring.Application for test class net.sshplendid.examples.spring.greeting.controller.GreetingControllerTest
+2018-08-20 22:42:51.929  INFO 35405 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-08-20 22:42:51.929  INFO 35405 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6576fafb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@193f375b, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@684b6aec, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@75e9e45f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@271a793b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@47ff076c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@74500975, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4e21d0bc, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3a86bbe2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@57d0fb9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7192a5c2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@31f63f7c]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.3.RELEASE)
+
+2018-08-20 22:42:51.967  INFO 35405 --- [    Test worker] n.s.e.s.g.c.GreetingControllerTest       : Starting GreetingControllerTest on ssh.local with PID 35405 (started by sshplendid in /Volumes/Mango/workspaces/_java_/java8/spring-data-example)
+2018-08-20 22:42:51.969  INFO 35405 --- [    Test worker] n.s.e.s.g.c.GreetingControllerTest       : No active profile set, falling back to default profiles: default
+2018-08-20 22:42:51.972  INFO 35405 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@403b200b: startup date [Mon Aug 20 22:42:51 KST 2018]; root of context hierarchy
+2018-08-20 22:42:52.307  INFO 35405 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-20 22:42:52.435  INFO 35405 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@403b200b: startup date [Mon Aug 20 22:42:51 KST 2018]; root of context hierarchy
+2018-08-20 22:42:52.460  INFO 35405 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/greeting],methods=[GET]}&quot; onto public net.sshplendid.examples.spring.net.sshplendid.examples.spring.greeting.Greeting net.sshplendid.examples.spring.net.sshplendid.examples.spring.greeting.controller.GreetingController.greeting(java.lang.String)
+2018-08-20 22:42:52.460  INFO 35405 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/],methods=[GET]}&quot; onto public java.lang.String net.sshplendid.examples.spring.net.sshplendid.examples.spring.greeting.controller.GreetingController.home()
+2018-08-20 22:42:52.463  INFO 35405 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-08-20 22:42:52.464  INFO 35405 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-08-20 22:42:52.494  INFO 35405 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-20 22:42:52.494  INFO 35405 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-08-20 22:42:52.732  INFO 35405 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-08-20 22:42:52.733  INFO 35405 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-08-20 22:42:52.752  INFO 35405 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 19 ms
+2018-08-20 22:42:52.781  INFO 35405 --- [    Test worker] n.s.e.s.g.c.GreetingControllerTest       : Started GreetingControllerTest in 0.848 seconds (JVM running for 9.181)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /
+       Parameters = {}
+          Headers = {}
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {}
+
+Handler:
+             Type = net.sshplendid.examples.spring.net.sshplendid.examples.spring.greeting.controller.GreetingController
+           Method = public java.lang.String net.sshplendid.examples.spring.net.sshplendid.examples.spring.greeting.controller.GreetingController.home()
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[text/plain;charset=UTF-8], Content-Length=[5]}
+     Content type = text/plain;charset=UTF-8
+             Body = hello
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /greeting
+       Parameters = {name=[Shin]}
+          Headers = {}
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {}
+
+Handler:
+             Type = net.sshplendid.examples.spring.net.sshplendid.examples.spring.greeting.controller.GreetingController
+           Method = public net.sshplendid.examples.spring.net.sshplendid.examples.spring.greeting.Greeting net.sshplendid.examples.spring.net.sshplendid.examples.spring.greeting.controller.GreetingController.greeting(java.lang.String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {&quot;id&quot;:1,&quot;name&quot;:&quot;Shin&quot;,&quot;content&quot;:&quot;Hello, Shin!&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /greeting
+       Parameters = {}
+          Headers = {}
+             Body = &lt;no character encoding set&gt;
+    Session Attrs = {}
+
+Handler:
+             Type = net.sshplendid.examples.spring.net.sshplendid.examples.spring.greeting.controller.GreetingController
+           Method = public net.sshplendid.examples.spring.net.sshplendid.examples.spring.greeting.Greeting net.sshplendid.examples.spring.net.sshplendid.examples.spring.greeting.controller.GreetingController.greeting(java.lang.String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {&quot;id&quot;:2,&quot;name&quot;:null,&quot;content&quot;:&quot;Hello, null!&quot;}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.9</a> at 2018. 8. 20. 오후 10:42:54</p>
+</div>
+</div>
+</body>
+</html>

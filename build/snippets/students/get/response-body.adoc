@@ -1,0 +1,4 @@
+[source,options="nowrap"]
+----
+[{"id":0,"firstName":"John","lastName":"Doe","age":15,"gender":"MALE"},{"id":0,"firstName":"Jane","lastName":"Doe","age":16,"gender":"FEMALE"},{"id":0,"firstName":"Jameson","lastName":"Doe","age":20,"gender":"MALE"}]
+----

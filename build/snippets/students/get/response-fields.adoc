@@ -1,0 +1,24 @@
+|===
+|Path|Type|Description
+
+|`+[].id+`
+|`+Number+`
+|Student identifier
+
+|`+[].firstName+`
+|`+String+`
+|The first name of the student
+
+|`+[].lastName+`
+|`+String+`
+|The last name of the student
+
+|`+[].age+`
+|`+Number+`
+|The ageof the student
+
+|`+[].gender+`
+|`+String+`
+|The gender of the student
+
+|===

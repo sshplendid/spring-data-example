@@ -1,0 +1,16 @@
+|===
+|Path|Type|Description
+
+|`+id+`
+|`+Number+`
+|Just sequence
+
+|`+name+`
+|`+String+`
+|The name of the user
+
+|`+content+`
+|`+String+`
+|The welcome message for the user.
+
+|===

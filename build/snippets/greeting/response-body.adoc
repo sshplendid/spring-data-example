@@ -1,0 +1,4 @@
+[source,options="nowrap"]
+----
+{"id":2,"name":null,"content":"Hello, null!"}
+----

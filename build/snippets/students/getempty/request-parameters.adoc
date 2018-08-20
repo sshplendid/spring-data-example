@@ -1,0 +1,10 @@
+|===
+|Parameter|Description
+
+|`+age+`
+|나이 조건
+
+|`+namelike+`
+|이름 like 검색
+
+|===
