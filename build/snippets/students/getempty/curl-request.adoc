@@ -1,4 +1,0 @@
-[source,bash]
-----
-$ curl 'http://localhost:8080/students?namelike=gon&age=1' -i -X GET
-----
